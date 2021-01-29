@@ -1,0 +1,149 @@
+main.css
+
+/*****BASE STYLES*****/
+body {
+font-family: 'Great Vibes', cursive;
+font-family: 'Unna', serif;
+font-family: 'Itim', cursive;
+font-family: 'Permanent Marker', cursive;
+}
+/***** GRID *****/
+.full-width {
+    width: 1200px;
+    margin: 0 auto;
+    overflow: auto;
+}
+.half-width {
+    width: 600px;
+    float: left;
+}
+.third-width {
+    width: 400px;
+    margin: 0 auto;
+    float: left;
+ }
+
+  /*****HEADER*****/
+  header {
+    height: 400px;
+    background: url('../img/hero.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  header h1 {
+    font-family:'Great Vibes', cursive;
+    font-size: 50px;
+    color: pink
+  }
+
+  nav {
+    float: right; 
+    padding: 5px 5px;
+  }
+nav ul li{
+    display: inline-block;
+  }
+nav ul li a {
+    text-transform:uppercase;
+    text-decoration: underline;
+    font-size: 12px;
+    color:  #b3d9ff;
+    padding-left: 5px; 
+}
+#about{
+    background-color: #fffff0;
+    border-style: ridge;
+}
+#about h2{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 40px;
+    color:#660066;
+
+
+}
+#about p {
+    font-family: 'Itim', cursive;
+    font-size: 20px;
+    color:#b300b3;
+
+}
+#Gwen{
+    padding-left: 10px;
+    padding-right: 10px;
+   
+    
+}
+#Gwen h2{
+    font-family:'Great Vibes', cursive;
+    font-size: 30px;
+    color:  #ff5050;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-shadow: 2px 2px 8px #cc0000;
+}
+#Gwen p {
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+
+}
+#Haleigh {
+    padding-left: 10px;
+    padding-right: 10px;
+    
+}
+#Haleigh h2{
+    font-family: 'Great Vibes', cursive;
+    font-size: 25px;
+    color:  #eeccff;
+    font-weight: bold;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-shadow: 2px 2px 8px #4d0066;
+     
+}
+#Haleigh p {
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    
+}
+#Allison {
+     
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Allison h2 {
+    font-family:'Great Vibes', cursive;
+    font-size: 25px;
+    font-weight: bold;
+    color: #66b3ff;
+    padding-right: 25px;
+    padding-left: 25px; 
+    text-shadow: 2px 2px 8px  #000080;
+}
+#Allison p {
+    font-family: 'Itim', cursive;
+    font-size: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+     
+}
+#quote {
+    font-family:'Great Vibes', cursive;
+    font-size: 40px;
+    color: #80ffff;
+    background: url(../img/pen.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+    text-shadow: 2px 2px 8px #1f004d;
+}
+#quote span {
+    font-family:'Great Vibes', cursive;
+    font-size: 25px;
+    color: #80ffff;
+}
